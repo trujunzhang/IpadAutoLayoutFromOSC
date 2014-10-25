@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'PostBase', :exclusive => true do
+  pod "PostBase", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "PostBase", :path => "../"
+
+  
+end

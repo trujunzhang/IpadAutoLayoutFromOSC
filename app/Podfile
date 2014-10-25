@@ -1,0 +1,35 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, 7.0
+
+
+target 'app', :exclusive => true do
+  # ________________open projects___________________
+  pod "App_Common", :path => "../dependencies/common/App_Common"
+  pod "App_Panels", :path => "../dependencies/common/App_Panels"
+
+
+  pod "App_Resources", :path => "../dependencies/ipad/App_Resources"
+
+  pod "Image_Crop", :path => "../dependencies/lib/Image_Crop"
+
+  pod "NewsBase", :path => "../dependencies/module/NewsBase"
+  pod "PostBase", :path => "../dependencies/module/PostBase"
+  pod "ProfileBase", :path => "../dependencies/module/ProfileBase"
+  pod "SettingView", :path => "../dependencies/module/SettingView"
+  pod "TweetBase2", :path => "../dependencies/module/TweetBase2"
+
+  # ________________open projects___________________
+  pod 'AFNetworking', '~> 1.3.4'
+  pod 'GCDiscreetNotificationView', '~> 1.0.2'
+  pod 'RegexKitLite', '~> 4.0'
+  pod 'MBProgressHUD', '~> 0.9'
+  pod 'EGOImageLoading', '~> 0.0.1'
+  pod 'TBXML', '~> 1.5'
+  pod 'ASIHTTPRequest', '~> 1.8.2'
+  pod 'EGOImageLoading', '~> 0.0.1'
+  pod 'EGOTableViewPullRefresh', '~> 0.1.0'
+  pod 'JSONKit', '~> 1.5pre'
+  pod 'FTCoreText', '~> 1.0.1'
+  pod 'RTLabel', '~> 1.0'
+end

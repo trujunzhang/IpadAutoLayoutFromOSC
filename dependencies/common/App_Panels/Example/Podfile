@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'App_Panels', :exclusive => true do
+  pod "App_Panels", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "App_Panels", :path => "../"
+
+  
+end

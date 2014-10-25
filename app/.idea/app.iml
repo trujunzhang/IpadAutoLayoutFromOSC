@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/../dependencies/common/App_Common">
+      <sourceFolder url="file://$MODULE_DIR$/../dependencies/common/App_Common" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../dependencies/common/App_Panels">
+      <sourceFolder url="file://$MODULE_DIR$/../dependencies/common/App_Panels" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../dependencies/ipad/App_Resources">
+      <sourceFolder url="file://$MODULE_DIR$/../dependencies/ipad/App_Resources" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../dependencies/lib/Image_Crop">
+      <sourceFolder url="file://$MODULE_DIR$/../dependencies/lib/Image_Crop" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../dependencies/module/NewsBase">
+      <sourceFolder url="file://$MODULE_DIR$/../dependencies/module/NewsBase" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../dependencies/module/PostBase">
+      <sourceFolder url="file://$MODULE_DIR$/../dependencies/module/PostBase" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../dependencies/module/ProfileBase">
+      <sourceFolder url="file://$MODULE_DIR$/../dependencies/module/ProfileBase" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../dependencies/module/SettingView">
+      <sourceFolder url="file://$MODULE_DIR$/../dependencies/module/SettingView" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../dependencies/module/TweetBase2">
+      <sourceFolder url="file://$MODULE_DIR$/../dependencies/module/TweetBase2" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

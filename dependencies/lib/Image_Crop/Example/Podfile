@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Image_Crop', :exclusive => true do
+  pod "Image_Crop", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "Image_Crop", :path => "../"
+
+  
+end
